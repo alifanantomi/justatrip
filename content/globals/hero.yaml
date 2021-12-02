@@ -1,0 +1,11 @@
+title: Hero
+data:
+  background_image:
+    - bg.JPG
+  heading: 'JUST A TRIP'
+  sub_heading: 'Your Travel Buddy'
+  content: |-
+    ARE YOU READY TO DISCOVER Indonesia Eastern?
+    Once you have traveled, the voyage never ends, but is played out over and over again in the quietest chambers. The mind can never break off from the journey.
+  cta_text: TOUR
+  cta_url: 'https://beacons.ai/booking.info.justatrip/'

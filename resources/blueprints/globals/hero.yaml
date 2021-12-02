@@ -1,0 +1,78 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: background_image
+        field:
+          mode: list
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          max_files: 4
+          display: 'Background Image'
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          validate:
+            - required
+      -
+        handle: heading
+        field:
+          input_type: text
+          antlers: false
+          display: Heading
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          validate:
+            - required
+      -
+        handle: sub_heading
+        field:
+          input_type: text
+          antlers: false
+          display: 'Sub Heading'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          validate:
+            - required
+      -
+        handle: content
+        field:
+          antlers: false
+          display: Content
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          validate:
+            - required
+      -
+        handle: cta_text
+        field:
+          input_type: text
+          antlers: false
+          display: 'CTA Text'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          validate:
+            - required
+      -
+        handle: cta_url
+        field:
+          input_type: url
+          antlers: false
+          display: 'CTA Url'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          validate:
+            - required

@@ -1,0 +1,6 @@
+title: Testimonies
+template: testimonies/show
+revisions: false
+date_behavior:
+  past: public
+  future: private
