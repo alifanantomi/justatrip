@@ -2,3 +2,12 @@ name: Admin
 super: true
 id: d83e2968-8e20-4907-96d0-77fd066e099d
 password_hash: $2y$10$/hacjdxIzGjmGmvt8bksT.fFNoJRsmTLiuaUKPA5DsUGFncD02hO6
+preferences:
+  collections:
+    benefits:
+      columns:
+        - title
+        - slug
+        - date
+        - icon
+        - content

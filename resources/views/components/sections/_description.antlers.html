@@ -5,21 +5,26 @@
         <div class="row">
             <div class="col-lg-12">
                 <h2>WHY CHOOSE US</h2>
+                
+                {{ collection:benefits }}
+
                 <!-- Card -->
                 <div class="card">
                     <span class="fa-stack">
                         <span class="hexagon"></span>
-                        <i class="fas fa-binoculars fa-stack-1x"></i>
+                        <i class="fas {{ icon }}"></i>
                     </span>
                     <div class="card-body">
-                        <h4 class="card-title">Berpengalaman</h4>
-                        <p>Layanan profesional kami kepada Anda dilengkapi dengan driver pribadi yang berpengalaman dan kendaraan yang nyaman dan aman untuk Anda</p>
+                        <h4 class="card-title">{{ title }}</h4>
+                        <p>{{ content }}</p>
                     </div>
                 </div>
                 <!-- end of card -->
 
+                {{ /collection:benefits }}
+
                 <!-- Card -->
-                <div class="card">
+                <!-- <div class="card">
                     <span class="fa-stack">
                         <span class="hexagon"></span>
                         <i class="fas fa-list-alt fa-stack-1x"></i>
@@ -28,11 +33,11 @@
                         <h4 class="card-title">Pelayanan Ramah</h4>
                         <p>Kami siap menjawab semua pertanyaan Anda dengan cepat dan jelas. Harap jangan ragu untuk menghubungi kami kapan saja.</p>
                     </div>
-                </div>
+                </div> -->
                 <!-- end of card -->
 
                 <!-- Card -->
-                <div class="card">
+                <!-- <div class="card">
                     <span class="fa-stack">
                         <span class="hexagon"></span>
                         <i class="fas fa-chart-pie fa-stack-1x"></i>
@@ -41,7 +46,7 @@
                         <h4 class="card-title">Ekonomis</h4>
                         <p>Kami menyediakan paket wisata yang menarik dan tentu saja terjangkau untuk Anda. Kami akan membuat liburan Anda menyenangkan tanpa mengkhawatirkan biaya yang mahal.</p>
                     </div>
-                </div>
+                </div> -->
                 <!-- end of card -->
 
             </div> <!-- end of col -->
