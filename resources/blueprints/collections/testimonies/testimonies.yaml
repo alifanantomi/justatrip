@@ -1,4 +1,4 @@
-title: Packages
+title: Testimonies
 sections:
   main:
     display: Main
@@ -9,13 +9,13 @@ sections:
           type: text
           required: true
       -
-        handle: coverimages
+        handle: foto
         field:
           mode: list
           restrict: false
           allow_uploads: true
           show_filename: true
-          display: CoverImages
+          display: Images
           type: assets
           icon: assets
           listable: hidden
@@ -23,22 +23,10 @@ sections:
           validate:
             - required
       -
-        handle: startfrom
-        field:
-          input_type: text
-          antlers: false
-          display: StartFrom
-          type: text
-          icon: text
-          listable: hidden
-          instructions_position: above
-          validate:
-            - required
-      -
-        handle: deskripsi
+        handle: conten
         field:
           antlers: false
-          display: Deskripsi
+          display: Conten
           type: textarea
           icon: textarea
           listable: hidden
@@ -46,11 +34,11 @@ sections:
           validate:
             - required
       -
-        handle: titile
+        handle: name
         field:
           input_type: text
           antlers: false
-          display: Titile
+          display: Name
           type: text
           icon: text
           listable: hidden
