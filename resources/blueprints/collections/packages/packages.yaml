@@ -4,38 +4,29 @@ sections:
     display: Main
     fields:
       -
-        handle: title
-        field:
-          type: text
-          required: true
-      -
-        handle: coverimages
+        handle: cover_images
         field:
           mode: list
           restrict: false
           allow_uploads: true
           show_filename: true
-          display: CoverImages
+          display: 'Cover Images'
           type: assets
           icon: assets
           listable: hidden
           instructions_position: above
           validate:
             - required
+          max_files: 2
       -
-        handle: startfrom
+        handle: title
         field:
-          input_type: text
-          antlers: false
-          display: StartFrom
           type: text
-          icon: text
-          listable: hidden
-          instructions_position: above
+          required: true
           validate:
             - required
       -
-        handle: deskripsi
+        handle: description
         field:
           antlers: false
           display: Deskripsi
@@ -46,11 +37,19 @@ sections:
           validate:
             - required
       -
-        handle: titile
+        handle: intenerary
         field:
-          input_type: text
+          display: Intenerary
+          type: list
+          icon: list
+          listable: hidden
+          instructions_position: above
+      -
+        handle: base_price
+        field:
+          input_type: number
           antlers: false
-          display: Titile
+          display: 'Base Price'
           type: text
           icon: text
           listable: hidden

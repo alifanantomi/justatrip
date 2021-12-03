@@ -1,0 +1,26 @@
+{{ partial:components/sections/header_secondary }}
+
+<div id="intro" class="basic-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="text-container">
+                    <div class="section-title">PACKAGE</div>
+                    <h2>{{ title }}</h2>
+                    <p>{{ description }}</p>
+                </div> <!-- end of text-container -->
+                <div class="button-container">
+                    <a class="btn-solid-reg page-scroll" href="#">VIEW PRICING</a>
+                </div> 
+            </div> <!-- end of col -->
+            <div class="col-lg-7">
+                <div class="image-container">
+                    {{ cover_images }}
+                        <img class="img-fluid mb-4" src="{{url}}" alt="alternative">
+                    {{ /cover_images }}
+                </div> <!-- end of image-container -->
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+</div> <!-- end of basic-1 -->
+<!-- end of intro -->

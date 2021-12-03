@@ -11,29 +11,53 @@
         <div class="row">
             <div class="col-lg-12">
 
-                <!-- Card -->
-                <div class="card">
+                {{ collection:packages }}
+                        
+                    <div class="card">
+                        <div class="card-image">
+                            <a href="{{slug}}">
+                                <img class="img-fluid" src="{{cover_images:0}}" alt="alternative">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">{{ title }}</h3>
+                            <p>{{ deskripsi }}</p>
+                            <ul class="list-unstyled li-space-lg">
+                                {{ itenerary }}
+
+                                <li class="media">
+                                    <i class="fas fa-square"></i>
+                                    <div class="media-body">{{ value }}</div>
+                                </li>
+
+                                {{ /itenerary }}
+                            </ul>
+                            <p class="price">Dimulai dari <span>Rp {{ base_price }}</span></p>
+                        </div>
+                        <div class="button-container">
+                            <a class="btn-solid-reg page-scroll" href="{{slug}}">SELENGKAPNYA</a>
+                        </div> 
+                    </div>
+
+                {{ /collection:packages }}
+
+                <!-- <div class="card">
                     <div class="card-image">
                         <a href="index.blade.php"> <img class="img-fluid" src="images/star-from-sailingkomodo.png" alt="alternative"></a>
                     </div>
                 </div>
-                <!-- end of card -->
 
-                <!-- Card -->
                 <div class="card">
                     <div class="card-image">
                         <a href=""> <img class="img-fluid" src="images/star-from-roadtrpsumba.png" alt="alternative"></a>
                     </div>
                 </div>
-                <!-- end of card -->
 
-                <!-- Card -->
                 <div class="card">
                     <div class="card-image">
                         <a href=""><img class="img-fluid" src="images/star-from-overlandflores.png" alt="alternative"></a>
                     </div>
-                </div>
-                <!-- end of card -->
+                </div> -->
 
             </div> <!-- end of col -->
         </div> <!-- end of row -->

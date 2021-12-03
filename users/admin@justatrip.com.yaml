@@ -11,3 +11,11 @@ preferences:
         - date
         - icon
         - content
+    packages:
+      columns:
+        - cover_images
+        - title
+        - slug
+        - description
+        - intenerary
+        - base_price
