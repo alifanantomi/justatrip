@@ -19,3 +19,15 @@ preferences:
         - description
         - intenerary
         - base_price
+    galleries:
+      columns:
+        - images
+        - title
+        - slug
+    testimonies:
+      columns:
+        - images
+        - title
+        - comment
+        - slug
+        - date

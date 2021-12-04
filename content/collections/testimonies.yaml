@@ -1,6 +1,9 @@
 title: Testimonies
 template: testimonies/show
+layout: layout
 revisions: false
+date: true
+sort_dir: asc
 date_behavior:
   past: public
   future: private
